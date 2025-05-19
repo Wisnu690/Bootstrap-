@@ -307,6 +307,15 @@ footer h3{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.main-container-about{
+    height: 100vh;
+    background-image: url('img/puraulundanu.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-content{
      background-color: rgba(181, 137, 54, 0.605);
      height: 100%;
