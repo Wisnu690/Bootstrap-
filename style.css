@@ -5,6 +5,12 @@
 html{
     scroll-behavior: smooth;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     z-index: 1000;
     position: fixed;
@@ -56,25 +62,18 @@ nav{
     
 }
 
-.info-container{
+.info-containers{ 
     width: 100%;
     height: 500px;
-    background-color: white;
-
-}
-.info-fullscreen {
-    width: 100%;
-    height: 500px;
-    background-image: url('img/main1.png'); /* ganti sesuai nama file kamu */
+    background-image: url('img/main1.png'); 
     background-size: cover;
     background-position: center;
     position: relative;
 }
-
-.info-overlay {
-    width: 100%;
+.content-container{
+     width: 100%;
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.4); /* semi-transparan biar teks keliatan */
+    background-color: rgba(0, 0, 0, 0.4); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,6 +146,7 @@ main{
 .top-header{
     background-color: rgba(181, 137, 54, 0.605);
     padding: 20px;
+    padding-top: auto;
 }
 
 
@@ -329,9 +329,7 @@ footer h3{
 
 
 .content{
-    padding-top: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding:10%;
     justify-content: center;
     text-align: justify;
 }
@@ -341,3 +339,37 @@ footer h3{
     text-decoration: solid;
     font-size: 15px;
 }
+
+@media (max-width:600px){
+
+    .hero-section{
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+   .info-containers{
+    height: auto;
+    position: relative;
+   }
+   .content-container{
+    height: auto;
+    position: relative;
+   }
+
+    .eksplorasi{
+        position: relative;
+    }
+
+    .content{
+    height: auto;
+    position: relative;
+    padding-top: 100px;
+    justify-content: center;
+    align-content: center;
+
+    
+    }
+}
+
+    
