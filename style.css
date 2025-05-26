@@ -329,6 +329,7 @@ footer h3{
 
 
 .content{
+    padding-top: 100px;
     padding:10%;
     justify-content: center;
     text-align: justify;
@@ -365,6 +366,7 @@ footer h3{
         position: relative;
     }
     .content{
+    font-size: 50%;
     height: auto;
     position: relative;
     padding-top: 100px;
