@@ -362,15 +362,39 @@ footer h3{
         position: relative;
     }
     
-    .main-content{
-        position: relative;
-    }
-    .content{
-    font-size: 50%;
+    .main-container-page1{
     height: auto;
     position: relative;
-    padding-top: 100px;
     }
+    .main-container-page2{
+    height: auto;
+    position: relative;
+    }
+    .main-container-page3{
+    height: auto;
+    position: relative;
+    }
+    .main-container-page4{
+    height: auto;
+    position: relative;
+    }
+    .main-container-page5{
+    height: auto;
+    position: relative;
+    }
+    .main-container-page6{
+    height: auto;
+    position: relative;
+    }
+    .main-container-about{
+    height: auto;
+    position: relative;
+    }
+    .bg-content{
+    height: auto;
+    position: relative;
+   }
+   .content{
+    padding-top: 100px;
+   }
 }
-
-    
