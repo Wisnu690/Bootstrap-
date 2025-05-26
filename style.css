@@ -360,15 +360,14 @@ footer h3{
     .eksplorasi{
         position: relative;
     }
-
+    
+    .main-content{
+        position: relative;
+    }
     .content{
     height: auto;
     position: relative;
     padding-top: 100px;
-    justify-content: center;
-    align-content: center;
-
-    
     }
 }
 
